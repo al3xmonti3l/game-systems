@@ -156,12 +156,12 @@ export default function Register() {
 
               <div className="field-group">
                 <label className="field-label">
-                  <span className="label-tag">SYS</span>SYS_CHARACTER_NAME
+                  <span className="label-tag">SYS</span>Character Name
                 </label>
                 <input
                   type="text"
                   className="field-input"
-                  placeholder="Your in-game handle (e.g. mönta7e)"
+                  placeholder="Choose your character name"
                   value={characterName}
                   onChange={e => setCharacterName(e.target.value)}
                   minLength={3} maxLength={24} required autoComplete="off"
