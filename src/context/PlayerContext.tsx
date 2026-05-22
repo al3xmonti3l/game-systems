@@ -5,6 +5,9 @@ export interface PlayerProfile {
   id: string;
   global_id: number;
   username: string;
+  character_name: string | null;
+  email: string | null;
+  gender: 'Male' | 'Female' | null;
   birth_month: number;
   birth_day: number;
   birth_year: number;
